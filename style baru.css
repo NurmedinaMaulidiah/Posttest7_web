@@ -1,0 +1,170 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0p;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    margin: 0p;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: sticky;
+
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    line-height: 50px;
+    position: static;
+    position: -webkit-sticky;
+    background-color :var(--primary-color); 
+    padding-top: 0px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color:#5b9e82 ;
+    font-weight: unset;
+    text-align: center;
+    text-decoration: none;
+    width: 10px;
+    padding: 5px 10px 5px 10px;
+
+}
+nav ul li a :hover {
+    text-decoration: underline;
+}
+
+.button {
+    position:relative;
+    padding:7px 10px;
+    left:-8px;
+    border:2px solid #8EBBA7;
+    background-color:#8EBBA7;
+    color:#33755a;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#33755a;
+}
+footer {
+    position: fixed;
+    height: 70px;
+    line-height: 50px;
+    background:var(--primary-color);
+    color: #33755a;
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    text-align: center;
+    font-family: optional;
+   
+    
+}
+.button1{
+    font-size: 30px;
+    font-family:'ourier New', Courier, monospace;
+}
+
+
+.konten{
+    margin-left: 250px;
+      border-left: 1px solid #d4d4d4;
+      padding: 1em;
+      overflow: hidden;
+      text-align: center;
+    color: var(--primary-color);
+    height: 200px;
+}
+.border img {
+    margin-bottom: 60px;
+    width: 100%;
+    height: 530px;
+}
+.paragraf{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color:var(--primary-color);
+    border-top : 2px ;
+    width : 100%;
+    height :800px;
+    color :#33755a
+
+}
+
+
+.container {width: 600px; margin: auto; background: lightgrey; padding: 10px}
+	#gambar {width: 300px; margin:auto;}
+
+.border{
+    border: 0px;
+    margin-top : 0px;
+    width : 100%;
+    height : 300px;
+    position: bottom;
+    
+
+}
+footer {
+    position: fixed;
+    height: 70px;
+    line-height: 50px;
+    background :var(--primary-color);
+    color :#33755a;
+    width: 100%;
+    text-align: center;
+    font-family: optional;
+}
+#icon{
+    width: 20px;
+    cursor: pinter;
+    padding: 2px;
+    margin-top: 10px;
+}
+:root{
+    --primary-color : #8EBBA7;
+    --secondary-color : black;
+}
+.darkmode{
+    --primary-color :black;
+    --secondary-color : #8EBBA7;
+
+}
+i { 
+color :#33755a;
+cursor: pointer;
+margin-left: 300px;
+}
+i:hover {
+background: beige;
+}
+
+.input{
+    align-content: center;
+    margin-left: 500px;
+    color :#c5aabb;
+    font-size: 12px ;
+    font-family :"";
+ }
+
+ 
